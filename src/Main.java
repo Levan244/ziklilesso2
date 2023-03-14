@@ -54,6 +54,7 @@ public class Main {
             System.out.println("год " + i + " поуляция страны " + populationCountry);
         }
         System.out.println();
+        System.out.println();
 
     }
 
