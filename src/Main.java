@@ -55,7 +55,8 @@ public class Main {
         int populationCountry = 12_000_000;
         int fertility = 17 ;
         int death = 8 ;
-        for ( int i = 1; i <= 10; i++){
+        int i = 1;
+        for (;i <= 10; i++) {
             populationCountry += populationCountry / 1000 * (fertility - death);
 
             System.out.println("год " + i + " поуляция страны " + populationCountry);
