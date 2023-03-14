@@ -49,7 +49,7 @@ public class Main {
         int death = 8 ;
         int i = 1;
         for (; i <= 10; i++){
-            populationCountry = populationCountry + ((fertility * 1000) -(death * 1000));
+            populationCountry += populationCountry/1000 *fertility - populationCountry / death * 1000;
 
             System.out.println("год " + i + " поуляция страны " + populationCountry);
         }
