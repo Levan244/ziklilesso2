@@ -86,6 +86,7 @@ public class Main {
            month++;
         }
         System.out.println();
+        System.out.println();
 
     }
 
